@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-
+// 带有单个路由的基本控制器示例。
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
